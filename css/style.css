@@ -1,0 +1,80 @@
+/* Adding body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: black;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+/* paragraph styles */
+p{
+    font-size: 1.2em;
+    color: beige;
+}
+
+/* heading styles */
+h1 {
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+/* button styles */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: blue;
+}
+
+/* story section styles */
+#story {
+    color: #d32f2f;
+    font-size: 1.2em;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Chosen word section styles */
+.horizontal {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.chosen-word {
+    margin-left: 10px;
+}
+
+/* Reset button styles */
+#reset {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#reset:hover {
+    background-color: #d32f2f;
+}
